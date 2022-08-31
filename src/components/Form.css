@@ -1,0 +1,40 @@
+#show-hide {
+  transform: translateX(-50px);
+  cursor: pointer;
+}
+.validations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+}
+.form-body {
+  height: 500px;
+  width: 600px;
+  margin: auto;
+  border: 2px solid black;
+  background-color: aliceblue;
+}
+.form {
+  margin-top: 20px;
+}
+.faCross {
+  display: none;
+}
+.faCheck {
+  display: inline;
+}
+.icon {
+  margin-right: 5px;
+
+  width: 15px;
+  height: 15px;
+}
+input {
+  color: rgb(69, 75, 81);
+  border: none;
+  border-bottom: 2px solid lightgray;
+  width: 80%;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+}
