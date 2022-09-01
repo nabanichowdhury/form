@@ -8,7 +8,7 @@
   grid-gap: 0;
 }
 .form-body {
-  height: 500px;
+  height: 600px;
   width: 600px;
   margin: auto;
   border: 2px solid black;
@@ -18,7 +18,7 @@
   margin-top: 20px;
 }
 .faCross {
-  display: none;
+  display: inline;
 }
 .faCheck {
   display: inline;
@@ -35,6 +35,23 @@ input {
   border-bottom: 2px solid lightgray;
   width: 80%;
   height: 40px;
-  margin: 20px;
+
   border-radius: 10px;
+}
+.errors {
+  color: red;
+  font-size: smaller;
+}
+.submit-button {
+  background-color: rgb(147, 147, 239);
+  color: white;
+  width: 50%;
+  margin: 50px 0 10px 0;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 688px) {
+  .validations {
+    display: block;
+  }
 }
